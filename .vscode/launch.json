@@ -1,0 +1,36 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "C:/Users/Maika/OneDrive - polymtl.ca/Bureau/maika_projet3/.pio/build/teensylc/firmware.elf",
+            "projectEnvName": "teensylc",
+            "toolchainBinDir": "C:/Users/Maika/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/Maika/.platformio/platforms/teensy/misc/svd/MKL26Z4.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "C:/Users/Maika/OneDrive - polymtl.ca/Bureau/maika_projet3/.pio/build/teensylc/firmware.elf",
+            "projectEnvName": "teensylc",
+            "toolchainBinDir": "C:/Users/Maika/.platformio/packages/toolchain-gccarmnoneeabi/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "C:/Users/Maika/.platformio/platforms/teensy/misc/svd/MKL26Z4.svd"
+        }
+    ]
+}
